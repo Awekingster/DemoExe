@@ -1,0 +1,474 @@
+Log: Log file open, 04/29/12 10:22:25
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 9656
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Mar 20 2012 19:27:46
+Init: Changelist: 1202061
+Init: Command line: 
+Init: Base directory: C:\UDK\BlobAttackTechDemo1\Binaries\Win32\
+[0000.31] Init: Computer: GUILLERMOGOMEZ
+[0000.31] Init: User: thedeadmanafterlife
+[0000.31] Init: CPU Page size=4096, Processors=2
+[0000.31] Init: High frequency timer resolution =2.078164 MHz
+[0000.31] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.6GB Virtual=4.0GB
+[0000.31] Log: Steam Client API initialized 0
+[0000.31] Log: Steam Game Server API initialized 0
+[0000.39] Init: WinSock: I am guillermogomez (192.168.1.6:0)
+[0000.39] Init: Presizing for 83221 objects not considered by GC, pre-allocating 0 bytes.
+[0000.39] Init: Object subsystem initialized
+[0001.48] Init: OS stats:
+[0001.48] Init: 	Windows 7 Service Pack 1
+[0001.48] Init: 	RemoteDesktop=0
+[0001.48] Init: Memory stats:
+[0001.48] Init: 	Physical: 3893MB
+[0001.48] Init: 	Virtual: 4095MB
+[0001.48] Init: 	PageFile: 7785MB
+[0001.48] Init: CPU stats:
+[0001.48] Init: 	MeasuredPerformanceTime: 692.280 (measured now)
+[0001.48] Init: 	Hyperthreaded: 1
+[0001.48] Init: 	NumProcessorsPerCPU: 1
+[0001.48] Init: 	NumLogicalProcessors: 2
+[0001.48] Init: 	NumPhysicalProcessors: 8
+[0001.48] Init: 	MaxSpeed: 2133
+[0001.48] Init: 	CurrentSpeed: 917
+[0001.48] Init: 	CoresPerProcessor: 8
+[0001.48] Init: 	IsOnBattery: 0
+[0001.48] Init: 	BatteryLevel: 91
+[0001.48] Init: 	Manufacturer: Intel
+[0001.48] Init: 	CPUName: INTEL Pentium-II
+[0001.48] Init: 	L1CacheSize: 32
+[0001.48] Init: 	L2CacheSize: -1
+[0001.48] Init: 	Architecture: x86
+[0001.48] Init: GPU stats:
+[0001.48] Init: 	VendorID: 00008086
+[0001.48] Init: 	DeviceID: 00000046
+[0001.48] Init: 	DriverVersion: 8.15.10.2189
+[0001.48] Init: 	DeviceName: Intel(R) HD Graphics
+[0001.48] Init: 	DriverName: igdumdx32.dll
+[0001.48] Init: 	PixelShaderVersion: 3
+[0001.48] Init: 	VertexShaderVersion: 3
+[0001.48] Init: 	VRAMQuantity: 64
+[0001.48] Init: 	DedicatedVRAM: 64
+[0001.48] Init: 	AdapterCount: 1
+[0001.48] Init: 	SupportsHardwareTnL: 1
+[0001.48] Init: Machine  detected compatibility level: Composite: 1. CPU: 5. GPU: 1.
+[0001.48] Init: Previous detected compatibility level: Composite: 0. CPU: 0. GPU: 0.
+[0001.50] Init: System Settings changed using SetFriendlyGraphicsSettings:
+[0001.50] Init: System Settings:
+[0001.50] Init: 	StaticDecals=true
+[0001.50] Init: 	DynamicDecals=true
+[0001.50] Init: 	UnbatchedDecals=true
+[0001.50] Init: 	DynamicLights=true
+[0001.50] Init: 	DynamicShadows=true
+[0001.50] Init: 	LightEnvironmentShadows=true
+[0001.50] Init: 	CompositeDynamicLights=true
+[0001.50] Init: 	SHSecondaryLighting=true
+[0001.50] Init: 	DirectionalLightmaps=true
+[0001.50] Init: 	MotionBlur=true
+[0001.50] Init: 	MotionBlurPause=true
+[0001.50] Init: 	DepthOfField=true
+[0001.50] Init: 	AmbientOcclusion=true
+[0001.50] Init: 	Bloom=true
+[0001.50] Init: 	bAllowLightShafts=true
+[0001.50] Init: 	Distortion=true
+[0001.50] Init: 	FilteredDistortion=true
+[0001.50] Init: 	DropParticleDistortion=false
+[0001.50] Init: 	bAllowDownsampledTranslucency=false
+[0001.50] Init: 	SpeedTreeLeaves=true
+[0001.50] Init: 	bUseMaxQualityMode=false
+[0001.50] Init: 	SpeedTreeFronds=true
+[0001.50] Init: 	OnlyStreamInTextures=false
+[0001.50] Init: 	LensFlares=true
+[0001.50] Init: 	FogVolumes=true
+[0001.50] Init: 	FloatingPointRenderTargets=true
+[0001.50] Init: 	OneFrameThreadLag=true
+[0001.50] Init: 	UseVsync=false
+[0001.50] Init: 	UpscaleScreenPercentage=true
+[0001.50] Init: 	Fullscreen=false
+[0001.50] Init: 	bAllowD3D9MSAA=false
+[0001.50] Init: 	AllowD3D11=false
+[0001.50] Init: 	AllowOpenGL=false
+[0001.50] Init: 	AllowRadialBlur=true
+[0001.50] Init: 	AllowSubsurfaceScattering=true
+[0001.50] Init: 	AllowImageReflections=true
+[0001.50] Init: 	AllowImageReflectionShadowing=true
+[0001.50] Init: 	bEnableBranchingPCFShadows=false
+[0001.50] Init: 	bAllowHardwareShadowFiltering=false
+[0001.50] Init: 	bEnableForegroundShadowsOnWorld=false
+[0001.50] Init: 	bEnableForegroundSelfShadowing=false
+[0001.50] Init: 	bAllowWholeSceneDominantShadows=true
+[0001.50] Init: 	bUseConservativeShadowBounds=false
+[0001.50] Init: 	bAllowFracturedDamage=true
+[0001.50] Init: 	bForceCPUAccessToGPUSkinVerts=false
+[0001.50] Init: 	bDisableSkeletalInstanceWeights=false
+[0001.50] Init: 	HighPrecisionGBuffers=false
+[0001.50] Init: 	bAllowSeparateTranslucency=false
+[0001.50] Init: 	bAllowTemporalAA=false
+[0001.50] Init: 	bAllowPostprocessMLAA=false
+[0001.50] Init: 	bAllowHighQualityMaterials=true
+[0001.50] Init: 	AllowSecondaryDisplays=false
+[0001.50] Init: 	MobileFog=true
+[0001.50] Init: 	MobileHeightFog=false
+[0001.50] Init: 	MobileSpecular=true
+[0001.50] Init: 	MobileBumpOffset=true
+[0001.50] Init: 	MobileNormalMapping=true
+[0001.50] Init: 	MobileEnvMapping=true
+[0001.50] Init: 	MobileRimLighting=true
+[0001.50] Init: 	MobileColorBlending=true
+[0001.50] Init: 	MobileColorGrading=true
+[0001.50] Init: 	MobileVertexMovement=true
+[0001.50] Init: 	MobileOcclusionQueries=false
+[0001.50] Init: 	MobileUsePreprocessedShaders=true
+[0001.50] Init: 	MobileFlashRedForUncachedShaders=false
+[0001.50] Init: 	MobileWarmUpPreprocessedShaders=true
+[0001.50] Init: 	MobileCachePreprocessedShaders=false
+[0001.50] Init: 	MobileProfilePreprocessedShaders=false
+[0001.50] Init: 	MobileUseCPreprocessorOnShaders=true
+[0001.50] Init: 	MobileLoadCPreprocessedShaders=true
+[0001.50] Init: 	MobileSharePixelShaders=true
+[0001.50] Init: 	MobileShareVertexShaders=true
+[0001.50] Init: 	MobileShareShaderPrograms=true
+[0001.50] Init: 	MobileEnableMSAA=false
+[0001.50] Init: 	MobileModShadows=true
+[0001.50] Init: 	MobileTiltShift=false
+[0001.50] Init: 	MobileClearDepthBetweenDPG=false
+[0001.50] Init: 	bEnableParallelApexClothingFetch=true
+[0001.50] Init: 	ApexClothingAllowAsyncCooking=true
+[0001.50] Init: 	ApexClothingAllowApexWorkBetweenSubsteps=false
+[0001.50] Init: 	ApexGRBEnable=false
+[0001.50] Init: 	ApexDestructionSortByBenefit=true
+[0001.50] Init: 	SkeletalMeshLODBias=0
+[0001.50] Init: 	ParticleLODBias=0
+[0001.50] Init: 	DetailMode=2
+[0001.50] Init: 	ShadowFilterQualityBias=0
+[0001.50] Init: 	MaxAnisotropy=4
+[0001.50] Init: 	MaxMultiSamples=1
+[0001.50] Init: 	MinShadowResolution=64
+[0001.50] Init: 	MinPreShadowResolution=8
+[0001.50] Init: 	MaxShadowResolution=1120
+[0001.50] Init: 	MaxWholeSceneDominantShadowResolution=1344
+[0001.50] Init: 	ResX=1280
+[0001.50] Init: 	ResY=720
+[0001.50] Init: 	UnbuiltNumWholeSceneDynamicShadowCascades=3
+[0001.50] Init: 	WholeSceneShadowUnbuiltInteractionThreshold=50
+[0001.50] Init: 	ShadowFadeResolution=128
+[0001.50] Init: 	PreShadowFadeResolution=16
+[0001.50] Init: 	MotionBlurSkinning=1
+[0001.50] Init: 	SecondaryDisplayMaximumWidth=1280
+[0001.50] Init: 	SecondaryDisplayMaximumHeight=720
+[0001.50] Init: 	MobileFeatureLevel=0
+[0001.50] Init: 	MobileBoneCount=75
+[0001.50] Init: 	MobileBoneWeightCount=2
+[0001.50] Init: 	MobileVertexScratchBufferSize=150
+[0001.50] Init: 	MobileIndexScratchBufferSize=10
+[0001.50] Init: 	ApexDestructionMaxChunkIslandCount=2500
+[0001.50] Init: 	ApexDestructionMaxShapeCount=0
+[0001.50] Init: 	ApexGRBGPUMemSceneSize=128
+[0001.50] Init: 	ApexGRBGPUMemTempDataSize=128
+[0001.50] Init: 	ApexGRBNonPenSolverPosIterCount=9
+[0001.50] Init: 	ApexGRBFrictionSolverPosIterCount=3
+[0001.50] Init: 	ApexGRBFrictionSolverVelIterCount=3
+[0001.50] Init: 	ApexClothingAvgSimFrequencyWindow=60
+[0001.50] Init: 	MaxDrawDistanceScale=1.000
+[0001.50] Init: 	ScreenPercentage=100.000
+[0001.50] Init: 	SceneCaptureStreamingMultiplier=1.000
+[0001.50] Init: 	ShadowTexelsPerPixel=1.273
+[0001.50] Init: 	PreShadowResolutionFactor=0.500
+[0001.50] Init: 	ShadowFilterRadius=2.000
+[0001.50] Init: 	ShadowDepthBias=0.012
+[0001.50] Init: 	PerObjectShadowTransition=60.000
+[0001.50] Init: 	PerSceneShadowTransition=600.000
+[0001.50] Init: 	CSMSplitPenumbraScale=0.500
+[0001.50] Init: 	CSMSplitSoftTransitionDistanceScale=4.000
+[0001.50] Init: 	CSMSplitDepthBiasScale=0.500
+[0001.50] Init: 	CSMMinimumFOV=40.000
+[0001.50] Init: 	CSMFOVRoundFactor=4.000
+[0001.50] Init: 	UnbuiltWholeSceneDynamicShadowRadius=20000.000
+[0001.50] Init: 	ShadowFadeExponent=0.250
+[0001.50] Init: 	NumFracturedPartsScale=1.000
+[0001.50] Init: 	FractureDirectSpawnChanceScale=1.000
+[0001.50] Init: 	FractureRadialSpawnChanceScale=1.000
+[0001.50] Init: 	FractureCullDistanceScale=1.000
+[0001.50] Init: 	DecalCullDistanceScale=1.000
+[0001.50] Init: 	TessellationAdaptivePixelsPerTriangle=48.000
+[0001.50] Init: 	TemporalAA_MinDepth=500.000
+[0001.50] Init: 	TemporalAA_StartDepthVelocityScale=100.000
+[0001.50] Init: 	MobileLODBias=-0.500
+[0001.50] Init: 	MobileContentScaleFactor=1.000
+[0001.50] Init: 	MobileTiltShiftPosition=0.500
+[0001.50] Init: 	MobileTiltShiftFocusWidth=0.300
+[0001.50] Init: 	MobileTiltShiftTransitionWidth=0.500
+[0001.50] Init: 	ApexLODResourceBudget=1000000020040877300000.000
+[0001.50] Init: 	ApexDestructionMaxChunkSeparationLOD=1.000
+[0001.50] Init: 	ApexGRBMeshCellSize=7.500
+[0001.50] Init: 	ApexGRBSkinWidth=0.025
+[0001.50] Init: 	ApexGRBMaxLinearAcceleration=1000000.000
+[0001.50] Log: 	TEXTUREGROUP_World: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_WorldNormalMap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_WorldSpecular: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Character: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_CharacterNormalMap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_CharacterSpecular: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Weapon: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_WeaponNormalMap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_WeaponSpecular: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Vehicle: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_VehicleNormalMap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_VehicleSpecular: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Cinematic: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Effects: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Linear,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_EffectsNotFiltered: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Skybox: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_UI: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Lightmap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_RenderTarget: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_MobileFlattened: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_ProcBuilding_Face: (MinLODSize=1,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_ProcBuilding_LightMap: (MinLODSize=1,MaxLODSize=256,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Shadowmap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,NumStreamedMips=3,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_ColorLookupTable: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Terrain_Heightmap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_Terrain_Weightmap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Log: 	TEXTUREGROUP_ImageBasedReflection: (MinLODSize=256,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Linear,MipGenSettings=TMGS_Blur5)
+[0001.50] Log: 	TEXTUREGROUP_Bokeh: (MinLODSize=1,MaxLODSize=256,LODBias=0,MinMagFilter=Linear,MipFilter=Linear,MipGenSettings=TMGS_SimpleAverage)
+[0001.50] Init: Friendly System Settings:
+[0001.50] Init: 	TextureDetail=Level5
+[0001.50] Init: 	WorldDetail=Level5
+[0001.50] Init: 	ShadowDetail=Level5
+[0001.50] Init: 	bUseVSync=0
+[0001.50] Init: 	bUseMSAA=0
+[0001.50] Init: 	ScreenPercentage=100
+[0001.50] Init: 	UpscaleScreenPercentage=1
+[0001.50] Init: 	ResX=1280
+[0001.50] Init: 	ResY= 720
+[0001.50] Init: 	Fullscreen=0
+[0001.50] Init: Writing new compatibility level to ini. Composite: 1. CPU: 5. GPU: 1.
+[0001.55] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.56] Error: Error, Manifest doesn't exist: ..\..\UDKGame\Script\Manifest.txt
+[0001.67] Log: PhysX GPU Support: DISABLED
+[0001.70] Init: Initializing FaceFX...
+[0001.70] Init: FaceFX 1.7.4 initialized.
+[0001.75] Init: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[0014.33] Init: Finished loading startup packages in 11.56 seconds
+[0014.35] Log: 69529 objects as part of root set at end of initial load.
+[0014.35] Log: 0 out of 0 bytes used by permanent object pool.
+[0014.35] Log: Initializing Engine...
+[0014.35] Warning: Warning, Failed to load 'ApexDestructibleDamageParameters UDK_APEXDamageMap.UDKDamageMap': Failed to find object 'ApexDestructibleDamageParameters UDK_APEXDamageMap.UDKDamageMap'
+[0014.58] Init: UEngine initialized
+[0014.62] Init: XAudio2Device initialized.
+[0014.65] Init: Client initialized
+[0025.87] Log: Steam Client API is unavailable
+[0026.37] Log: LoadMap: BlobMainMenu?Name=Player?Team=255
+[0026.66] Log: Game class is 'SimpleGame'
+[0026.74] Log: Primary PhysX scene will be in software.
+[0026.74] Log: Creating Primary PhysX Scene.
+[0026.80] Log: Bringing World BlobMainMenu.TheWorld up for play (0) at 2012.04.29-10.22.52
+[0026.82] Log: Bringing up level for play took: 0.129994
+[0026.83] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0026.83] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0026.83] Error: Can't start an online game that hasn't been created
+[0026.83] Log: ########### Finished loading level: 0.455774 seconds
+[0026.83] Init: Game engine initialized
+[0026.83] Log: Initializing Engine Completed
+[0032.17] Log: >>>>>>>>>>>>>> Initial startup: 32.17s <<<<<<<<<<<<<<<
+[0032.23] Warning: Warning, Failed to load 'SwfMovie ?INT?Scaleform.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?Scaleform.IME.MoviePath?'
+[0032.23] Log: GFx attempted to load missing object [?INT?Scaleform.IME.MoviePath?]
+[0132.96] Log: LoadMap: ARECTF-Arena_Night_Blob?Name=Player?Team=255
+[0132.97] Log: --- LOADING MOVIE START ---
+[0133.17] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
+	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
+	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
+[0136.48] Log: Game class is 'BlobTeamCTF'
+[0136.54] Log: Primary PhysX scene will be in software.
+[0136.54] Log: Creating Primary PhysX Scene.
+[0136.55] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0136.55] Log: Bringing World ARECTF-Arena_Night_Blob.TheWorld up for play (0) at 2012.04.29-10.24.42
+[0136.68] ScriptWarning: UTDefensePoint_0 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_0
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0136.68] ScriptWarning: UTDefensePoint_1 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_1
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0136.68] ScriptWarning: UTDefensePoint_2 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_2
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0136.68] ScriptWarning: UTDefensePoint_3 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_3
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0136.68] ScriptWarning: UTDefensePoint_4 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_4
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0136.68] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 246: Actor::setAngularDamping: Actor must be dynamic!
+[0136.68] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 225: Actor::setLinearDamping: Actor must be dynamic!
+[0136.68] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 246: Actor::setAngularDamping: Actor must be dynamic!
+[0136.68] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 225: Actor::setLinearDamping: Actor must be dynamic!
+[0136.68] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 246: Actor::setAngularDamping: Actor must be dynamic!
+[0136.68] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 225: Actor::setLinearDamping: Actor must be dynamic!
+[0136.68] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFRedFlag_0.SkeletalMeshComponent_3 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0136.69] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFBlueFlag_0.SkeletalMeshComponent_4 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0136.70] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFBlueFlag_0.SkeletalMeshComponent_4 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0136.70] Log: Bringing up level for play took: 0.212139
+[0136.71] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0136.71] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0136.81] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.UTGFxTeamHUD_0:GFxMinimap_0
+	Function UTGame.GFxMinimap:Init:00F2
+[0136.81] Log: ########### Finished loading level: 3.848797 seconds
+[0136.82] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFRedFlag_0.SkeletalMeshComponent_3 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0136.82] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFBlueFlag_0.SkeletalMeshComponent_4 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0136.87] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_0.SkeletalMeshComponent_6 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0136.88] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_0
+[0136.88] Error: Can't start an online game that hasn't been created
+[0136.88] ScriptLog: START MATCH
+[0136.88] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_0.SkeletalMeshComponent_6 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0137.38] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.UTGFxTeamHUD_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:Init:00F2
+[0137.39] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.UTGFxTeamHUD_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0140.43] Log: --- LOADING MOVIE TIME: 7.45 sec ---
+[0145.03] Log: Assembled 408 auto-complete commands, manual: 90, exec: 291, kismet: 0
+[0152.95] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_1.SkeletalMeshComponent_10 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0152.95] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_1
+[0152.95] ScriptLog: added bot
+[0152.95] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_2.SkeletalMeshComponent_14 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0152.96] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_2
+[0152.96] ScriptLog: added bot
+[0152.96] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_3.SkeletalMeshComponent_18 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0152.96] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_3
+[0152.96] ScriptLog: added bot
+[0152.96] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_4.SkeletalMeshComponent_22 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0152.96] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_4
+[0152.97] ScriptLog: added bot
+[0152.97] ScriptWarning: Player start not found, failed to restart player
+	BlobTeamCTF ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobTeamCTF_0
+	Function Engine.GameInfo:RestartPlayer:025E
+[0152.97] ScriptLog: added bot
+[0152.97] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_1.SkeletalMeshComponent_10 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0152.97] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_2.SkeletalMeshComponent_14 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0152.97] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_3.SkeletalMeshComponent_18 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0152.97] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_4.SkeletalMeshComponent_22 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0153.17] ScriptLog: BEGIN DEFENDING
+[0153.17] ScriptLog: PAUSE DEFENDING
+[0153.17] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0156.09] ScriptLog: BEGIN DEFENDING
+[0156.09] ScriptLog: PAUSE DEFENDING
+[0156.09] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0158.96] ScriptLog: BEGIN DEFENDING
+[0158.96] ScriptLog: PAUSE DEFENDING
+[0158.96] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0159.62] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_head
+[0159.62] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_LeftForeArm
+[0159.62] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_LeftLeg
+[0159.62] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_RightLeg
+[0159.62] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_Spine
+[0160.63] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_5.SkeletalMeshComponent_28 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0160.64] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_5
+[0160.65] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_5.SkeletalMeshComponent_28 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0161.86] ScriptLog: BEGIN DEFENDING
+[0161.86] ScriptLog: PAUSE DEFENDING
+[0161.86] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0164.82] ScriptLog: BEGIN DEFENDING
+[0164.82] ScriptLog: PAUSE DEFENDING
+[0164.82] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0167.72] ScriptLog: BEGIN DEFENDING
+[0167.72] ScriptLog: PAUSE DEFENDING
+[0167.72] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0169.41] ScriptLog: UTAchievements: Failed to read online achievement stats
+[0169.41] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_head
+[0169.41] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_LeftForeArm
+[0169.41] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_LeftLeg
+[0169.41] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_RightLeg
+[0169.41] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_Spine
+[0170.39] ScriptLog: UTAchievements: Failed to read online achievement stats
+[0170.40] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_6.SkeletalMeshComponent_33 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0170.40] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_6
+[0170.41] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_6.SkeletalMeshComponent_33 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0170.68] ScriptLog: BEGIN DEFENDING
+[0170.68] ScriptLog: PAUSE DEFENDING
+[0170.68] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0170.74] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_head
+[0170.74] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_LeftForeArm
+[0170.74] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_LeftLeg
+[0170.74] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_RightLeg
+[0170.75] Warning: USkeletalMeshComponent::execGetBoneQuaternion : Could not find bone: b_Spine
+[0171.39] ScriptLog: UTAchievements: Failed to read online achievement stats
+[0171.70] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_7.SkeletalMeshComponent_38 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0171.71] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_7
+[0171.72] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_7.SkeletalMeshComponent_38 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0172.39] ScriptLog: UTAchievements: Failed to read online achievement stats
+[0173.40] ScriptLog: UTAchievements: Failed to read online achievement stats
+[0173.62] ScriptLog: BEGIN DEFENDING
+[0173.62] ScriptLog: PAUSE DEFENDING
+[0173.62] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0174.02] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_41 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0174.38] ScriptLog: UTAchievements: Failed to read online achievement stats
+[0174.78] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_41 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0175.41] ScriptLog: UTAchievements: Failed to read online achievement stats
+[0176.54] ScriptLog: UTAchievements: Failed to read online achievement stats
+[0177.37] Critical: appError called: Assertion failed: i>=0 && (i<ArrayNum||(i==0 && ArrayNum==0)) [File:d:\depot\unrealengine3\development\src\core\inc\Array.h] [Line: 575]
+
+Stack: Address = 0x20b4c9   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+
+[0177.37] Critical: Windows GetLastError: The operation completed successfully. (0)
+[0187.36] Log: === Critical error: ===
+Assertion failed: i>=0 && (i<ArrayNum||(i==0 && ArrayNum==0)) [File:d:\depot\unrealengine3\development\src\core\inc\Array.h] [Line: 575]
+
+Stack: Address = 0x20b4c9   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+
+
+Address = 0x750eb9bc (filename not found) [in C:\windows\syswow64\KERNELBASE.dll]
+Address = 0x2734b1   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x20006e   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x610066   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x3d0069   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x64005c   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x64005c   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x760065   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x6c0065   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x70006f   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x65006d   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x74006e   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x73005c   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x630072   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x63005c   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x72006f   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x5c0065   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x6e0069   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x5c0063   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x720041   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x610072   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x2e0079   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0xd0fb0    (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x274d4b   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x64005c   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x64005c   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x2075eb   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+

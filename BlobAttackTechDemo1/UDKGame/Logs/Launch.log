@@ -1,0 +1,271 @@
+Log: Log file open, 04/29/12 13:13:55
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 9656
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Mar 20 2012 19:27:46
+Init: Changelist: 1202061
+Init: Command line: 
+Init: Base directory: C:\UDK\BlobAttackTechDemo1\Binaries\Win32\
+[0000.35] Init: Computer: GUILLERMOGOMEZ
+[0000.35] Init: User: thedeadmanafterlife
+[0000.35] Init: CPU Page size=4096, Processors=2
+[0000.35] Init: High frequency timer resolution =2.078164 MHz
+[0000.35] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.6GB Virtual=4.0GB
+[0000.35] Log: Steam Client API initialized 0
+[0000.36] Log: Steam Game Server API initialized 0
+[0000.40] Init: WinSock: I am guillermogomez (192.168.1.6:0)
+[0000.40] Init: Presizing for 83221 objects not considered by GC, pre-allocating 0 bytes.
+[0000.40] Init: Object subsystem initialized
+[0000.51] Init: OS stats:
+[0000.51] Init: 	Windows 7 Service Pack 1
+[0000.51] Init: 	RemoteDesktop=0
+[0000.51] Init: Memory stats:
+[0000.51] Init: 	Physical: 3893MB
+[0000.51] Init: 	Virtual: 4095MB
+[0000.51] Init: 	PageFile: 7785MB
+[0000.51] Init: CPU stats:
+[0000.51] Init: 	MeasuredPerformanceTime: 692.280 (stored result)
+[0000.51] Init: 	Hyperthreaded: 1
+[0000.51] Init: 	NumProcessorsPerCPU: 1
+[0000.51] Init: 	NumLogicalProcessors: 2
+[0000.51] Init: 	NumPhysicalProcessors: 8
+[0000.51] Init: 	MaxSpeed: 2133
+[0000.51] Init: 	CurrentSpeed: 917
+[0000.51] Init: 	CoresPerProcessor: 8
+[0000.51] Init: 	IsOnBattery: 0
+[0000.51] Init: 	BatteryLevel: 100
+[0000.51] Init: 	Manufacturer: Intel
+[0000.51] Init: 	CPUName: INTEL Pentium-II
+[0000.51] Init: 	L1CacheSize: 32
+[0000.51] Init: 	L2CacheSize: -1
+[0000.51] Init: 	Architecture: x86
+[0000.51] Init: GPU stats:
+[0000.51] Init: 	VendorID: 00008086
+[0000.51] Init: 	DeviceID: 00000046
+[0000.51] Init: 	DriverVersion: 8.15.10.2189
+[0000.51] Init: 	DeviceName: Intel(R) HD Graphics
+[0000.51] Init: 	DriverName: igdumdx32.dll
+[0000.51] Init: 	PixelShaderVersion: 3
+[0000.51] Init: 	VertexShaderVersion: 3
+[0000.51] Init: 	VRAMQuantity: 64
+[0000.51] Init: 	DedicatedVRAM: 64
+[0000.51] Init: 	AdapterCount: 1
+[0000.51] Init: 	SupportsHardwareTnL: 1
+[0000.52] Init: Machine  detected compatibility level: Composite: 1. CPU: 5. GPU: 1.
+[0000.52] Init: Previous detected compatibility level: Composite: 1. CPU: 5. GPU: 1.
+[0000.58] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.58] Error: Error, Manifest doesn't exist: ..\..\UDKGame\Script\Manifest.txt
+[0000.64] Log: PhysX GPU Support: DISABLED
+[0000.65] Init: Initializing FaceFX...
+[0000.65] Init: FaceFX 1.7.4 initialized.
+[0000.68] Init: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[0007.47] Init: Finished loading startup packages in 6.17 seconds
+[0007.48] Log: 69529 objects as part of root set at end of initial load.
+[0007.48] Log: 0 out of 0 bytes used by permanent object pool.
+[0007.48] Log: Initializing Engine...
+[0007.49] Warning: Warning, Failed to load 'ApexDestructibleDamageParameters UDK_APEXDamageMap.UDKDamageMap': Failed to find object 'ApexDestructibleDamageParameters UDK_APEXDamageMap.UDKDamageMap'
+[0007.66] Init: UEngine initialized
+[0007.69] Init: XAudio2Device initialized.
+[0007.71] Init: Client initialized
+[0013.44] Log: Steam Client API is unavailable
+[0013.97] Log: LoadMap: BlobMainMenu?Name=Player?Team=255
+[0014.19] Log: Game class is 'SimpleGame'
+[0014.24] Log: Primary PhysX scene will be in software.
+[0014.24] Log: Creating Primary PhysX Scene.
+[0014.24] Log: Bringing World BlobMainMenu.TheWorld up for play (0) at 2012.04.29-13.14.09
+[0014.25] Log: Bringing up level for play took: 0.021135
+[0014.25] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0014.25] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0014.25] Error: Can't start an online game that hasn't been created
+[0014.25] Log: ########### Finished loading level: 0.283048 seconds
+[0014.25] Init: Game engine initialized
+[0014.25] Log: Initializing Engine Completed
+[0019.83] Log: >>>>>>>>>>>>>> Initial startup: 19.83s <<<<<<<<<<<<<<<
+[0019.87] Warning: Warning, Failed to load 'SwfMovie ?INT?Scaleform.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?Scaleform.IME.MoviePath?'
+[0019.87] Log: GFx attempted to load missing object [?INT?Scaleform.IME.MoviePath?]
+[0036.64] Log: LoadMap: ARECTF-Arena_Night_Blob?Name=Player?Team=255
+[0036.68] Log: --- LOADING MOVIE START ---
+[0036.81] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
+	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
+	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
+[0040.44] Log: Game class is 'BlobTeamCTF'
+[0040.55] Log: Primary PhysX scene will be in software.
+[0040.55] Log: Creating Primary PhysX Scene.
+[0040.57] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0040.57] Log: Bringing World ARECTF-Arena_Night_Blob.TheWorld up for play (0) at 2012.04.29-13.14.35
+[0040.59] ScriptWarning: UTDefensePoint_0 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_0
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0040.59] ScriptWarning: UTDefensePoint_1 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_1
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0040.59] ScriptWarning: UTDefensePoint_2 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_2
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0040.59] ScriptWarning: UTDefensePoint_3 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_3
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0040.59] ScriptWarning: UTDefensePoint_4 has no DefendedObjective!
+	UTDefensePoint ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTDefensePoint_4
+	Function UTGame.UTDefensePoint:PreBeginPlay:003B
+[0040.59] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 246: Actor::setAngularDamping: Actor must be dynamic!
+[0040.59] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 225: Actor::setLinearDamping: Actor must be dynamic!
+[0040.59] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 246: Actor::setAngularDamping: Actor must be dynamic!
+[0040.59] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 225: Actor::setLinearDamping: Actor must be dynamic!
+[0040.60] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 246: Actor::setAngularDamping: Actor must be dynamic!
+[0040.60] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 225: Actor::setLinearDamping: Actor must be dynamic!
+[0040.60] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFRedFlag_0.SkeletalMeshComponent_3 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0040.61] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFBlueFlag_0.SkeletalMeshComponent_4 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0040.61] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFBlueFlag_0.SkeletalMeshComponent_4 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0040.61] Log: Bringing up level for play took: 0.175410
+[0040.62] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0040.62] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0040.66] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.UTGFxTeamHUD_0:GFxMinimap_0
+	Function UTGame.GFxMinimap:Init:00F2
+[0040.66] Log: ########### Finished loading level: 4.023452 seconds
+[0040.68] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFRedFlag_0.SkeletalMeshComponent_3 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0040.68] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.UTCTFBlueFlag_0.SkeletalMeshComponent_4 CTF_Flag_IronGuard.Mesh.S_CTF_Flag_IronGuard 1 0 1 0
+[0040.72] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_0.SkeletalMeshComponent_6 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0040.72] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_0
+[0040.73] Error: Can't start an online game that hasn't been created
+[0040.73] ScriptLog: START MATCH
+[0040.73] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_0.SkeletalMeshComponent_6 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0041.09] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.UTGFxTeamHUD_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:Init:00F2
+[0041.09] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.UTGFxTeamHUD_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0043.85] Log: --- LOADING MOVIE TIME: 7.16 sec ---
+[0048.00] Log: Assembled 408 auto-complete commands, manual: 90, exec: 291, kismet: 0
+[0054.23] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_1.SkeletalMeshComponent_10 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.23] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_1
+[0054.23] ScriptLog: added bot
+[0054.23] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_2.SkeletalMeshComponent_14 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.23] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_2
+[0054.23] ScriptLog: added bot
+[0054.23] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_3.SkeletalMeshComponent_18 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.24] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_3
+[0054.24] ScriptLog: added bot
+[0054.24] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_4.SkeletalMeshComponent_22 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.24] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_4
+[0054.24] ScriptLog: added bot
+[0054.24] ScriptWarning: Player start not found, failed to restart player
+	BlobTeamCTF ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobTeamCTF_0
+	Function Engine.GameInfo:RestartPlayer:025E
+[0054.24] ScriptLog: added bot
+[0054.24] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_5.SkeletalMeshComponent_26 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.25] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_5
+[0054.29] ScriptLog: added bot
+[0054.29] ScriptWarning: Player start not found, failed to restart player
+	BlobTeamCTF ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobTeamCTF_0
+	Function Engine.GameInfo:RestartPlayer:025E
+[0054.29] ScriptLog: added bot
+[0054.30] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_1.SkeletalMeshComponent_10 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.30] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_2.SkeletalMeshComponent_14 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.30] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_3.SkeletalMeshComponent_18 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.30] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_4.SkeletalMeshComponent_22 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.30] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobPawn_5.SkeletalMeshComponent_26 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0054.49] ScriptLog: BEGIN DEFENDING
+[0054.49] ScriptLog: PAUSE DEFENDING
+[0054.49] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0057.45] ScriptLog: BEGIN DEFENDING
+[0057.45] ScriptLog: PAUSE DEFENDING
+[0057.45] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARECTF-Arena_Night_Blob.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0059.81] Critical: appError called: Assertion failed: i>=0 && (i<ArrayNum||(i==0 && ArrayNum==0)) [File:d:\depot\unrealengine3\development\src\core\inc\Array.h] [Line: 575]
+
+Stack: Address = 0x143b4c9  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+
+[0059.81] Critical: Windows GetLastError: The operation completed successfully. (0)
+[0064.38] Log: === Critical error: ===
+Assertion failed: i>=0 && (i<ArrayNum||(i==0 && ArrayNum==0)) [File:d:\depot\unrealengine3\development\src\core\inc\Array.h] [Line: 575]
+
+Stack: Address = 0x143b4c9  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+
+
+Address = 0x750eb9bc (filename not found) [in C:\windows\syswow64\KERNELBASE.dll]
+Address = 0x14a34b1  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x650073   (filename not found) 
+Address = 0x740072   (filename not found) 
+Address = 0x6f0069   (filename not found) 
+Address = 0x20006e   (filename not found) 
+Address = 0x610066   (filename not found) 
+Address = 0x6c0069   (filename not found) 
+Address = 0x640065   (filename not found) 
+Address = 0x20003a   (filename not found) 
+Address = 0x3e0069   (filename not found) 
+Address = 0x30003d   (filename not found) 
+Address = 0x260020   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0x200026   (filename not found) 
+Address = 0x690028   (filename not found) 
+Address = 0x41003c   (filename not found) 
+Address = 0x720072   (filename not found) 
+Address = 0x790061   (filename not found) 
+Address = 0x75004e   (filename not found) 
+Address = 0x7c006d   (filename not found) 
+Address = 0x28007c   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0x3d0069   (filename not found) 
+Address = 0x30003d   (filename not found) 
+Address = 0x260020   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0x200026   (filename not found) 
+Address = 0x720041   (filename not found) 
+Address = 0x610072   (filename not found) 
+Address = 0x4e0079   (filename not found) 
+Address = 0x6d0075   (filename not found) 
+Address = 0x3d003d   (filename not found) 
+Address = 0x290030   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0x200029   (filename not found) 
+Address = 0x46005b   (filename not found) 
+Address = 0x6c0069   (filename not found) 
+Address = 0x3a0065   (filename not found) 
+Address = 0x3a0064   (filename not found) 
+Address = 0x64005c   (filename not found) 
+Address = 0x700065   (filename not found) 
+Address = 0x74006f   (filename not found) 
+Address = 0x75005c   (filename not found) 
+Address = 0x72006e   (filename not found) 
+Address = 0x610065   (filename not found) 
+Address = 0x65006c   (filename not found) 
+Address = 0x67006e   (filename not found) 
+Address = 0x6e0069   (filename not found) 
+Address = 0x330065   (filename not found) 
+Address = 0x64005c   (filename not found) 
+Address = 0x760065   (filename not found) 
+Address = 0x6c0065   (filename not found) 
+Address = 0x70006f   (filename not found) 
+Address = 0x65006d   (filename not found) 
+Address = 0x74006e   (filename not found) 
+Address = 0x73005c   (filename not found) 
+Address = 0x630072   (filename not found) 
+Address = 0x63005c   (filename not found) 
+Address = 0x72006f   (filename not found) 
+Address = 0x5c0065   (filename not found) 
+Address = 0x6e0069   (filename not found) 
+Address = 0x5c0063   (filename not found) 
+Address = 0x720041   (filename not found) 
+Address = 0x610072   (filename not found) 
+Address = 0x2e0079   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0x1300fb0  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x14a4d4b  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x14720e3  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x19c036f  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x19c036f  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x19d5f55  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x19d5f55  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x19d5f99  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+

@@ -1,0 +1,21 @@
+Log: Log file open, 04/29/12 10:21:03
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 9656
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Mar 20 2012 19:27:46
+Init: Changelist: 1202061
+Init: Command line: -firstinstall -LanguageForCooking=INT
+Init: Base directory: C:\UDK\BlobAttackTechDemo1\Binaries\Win32\
+[0000.44] Init: Computer: GUILLERMOGOMEZ
+[0000.44] Init: User: thedeadmanafterlife
+[0000.44] Init: CPU Page size=4096, Processors=2
+[0000.44] Init: High frequency timer resolution =2.078164 MHz
+[0000.44] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.6GB Virtual=4.0GB
+[0000.45] Log: Steam Client API initialized 0
+[0000.45] Log: Steam Game Server API initialized 0
+[0000.58] Init: WinSock: I am guillermogomez (192.168.1.6:0)
+[0000.58] Init: Presizing for 83221 objects not considered by GC, pre-allocating 0 bytes.
+[0000.59] Init: Object subsystem initialized
+[0000.59] Log: Last hardware survey: Ver=-1, Date=0. Uploading again.

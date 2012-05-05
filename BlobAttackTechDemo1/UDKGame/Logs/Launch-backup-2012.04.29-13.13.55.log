@@ -1,0 +1,2463 @@
+Log: Log file open, 04/29/12 11:04:30
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 9656
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Mar 20 2012 19:27:46
+Init: Changelist: 1202061
+Init: Command line: 
+Init: Base directory: C:\UDK\BlobAttackTechDemo1\Binaries\Win32\
+[0000.38] Init: Computer: GUILLERMOGOMEZ
+[0000.38] Init: User: thedeadmanafterlife
+[0000.38] Init: CPU Page size=4096, Processors=2
+[0000.38] Init: High frequency timer resolution =2.078164 MHz
+[0000.38] Init: Memory total: Physical=3.8GB (3GB approx) Pagefile=7.6GB Virtual=4.0GB
+[0000.38] Log: Steam Client API initialized 0
+[0000.38] Log: Steam Game Server API initialized 0
+[0000.42] Init: WinSock: I am guillermogomez (192.168.1.6:0)
+[0000.42] Init: Presizing for 83221 objects not considered by GC, pre-allocating 0 bytes.
+[0000.43] Init: Object subsystem initialized
+[0000.57] Init: OS stats:
+[0000.57] Init: 	Windows 7 Service Pack 1
+[0000.57] Init: 	RemoteDesktop=0
+[0000.57] Init: Memory stats:
+[0000.57] Init: 	Physical: 3893MB
+[0000.57] Init: 	Virtual: 4095MB
+[0000.57] Init: 	PageFile: 7785MB
+[0000.57] Init: CPU stats:
+[0000.57] Init: 	MeasuredPerformanceTime: 692.280 (stored result)
+[0000.57] Init: 	Hyperthreaded: 1
+[0000.57] Init: 	NumProcessorsPerCPU: 1
+[0000.57] Init: 	NumLogicalProcessors: 2
+[0000.57] Init: 	NumPhysicalProcessors: 8
+[0000.57] Init: 	MaxSpeed: 2133
+[0000.57] Init: 	CurrentSpeed: 917
+[0000.57] Init: 	CoresPerProcessor: 8
+[0000.57] Init: 	IsOnBattery: 0
+[0000.57] Init: 	BatteryLevel: 100
+[0000.57] Init: 	Manufacturer: Intel
+[0000.57] Init: 	CPUName: INTEL Pentium-II
+[0000.57] Init: 	L1CacheSize: 32
+[0000.57] Init: 	L2CacheSize: -1
+[0000.57] Init: 	Architecture: x86
+[0000.57] Init: GPU stats:
+[0000.57] Init: 	VendorID: 00008086
+[0000.57] Init: 	DeviceID: 00000046
+[0000.57] Init: 	DriverVersion: 8.15.10.2189
+[0000.57] Init: 	DeviceName: Intel(R) HD Graphics
+[0000.57] Init: 	DriverName: igdumdx32.dll
+[0000.57] Init: 	PixelShaderVersion: 3
+[0000.57] Init: 	VertexShaderVersion: 3
+[0000.57] Init: 	VRAMQuantity: 64
+[0000.57] Init: 	DedicatedVRAM: 64
+[0000.57] Init: 	AdapterCount: 1
+[0000.57] Init: 	SupportsHardwareTnL: 1
+[0000.57] Init: Machine  detected compatibility level: Composite: 1. CPU: 5. GPU: 1.
+[0000.57] Init: Previous detected compatibility level: Composite: 1. CPU: 5. GPU: 1.
+[0000.60] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.61] Error: Error, Manifest doesn't exist: ..\..\UDKGame\Script\Manifest.txt
+[0000.67] Log: PhysX GPU Support: DISABLED
+[0000.68] Init: Initializing FaceFX...
+[0000.68] Init: FaceFX 1.7.4 initialized.
+[0000.69] Init: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[0009.09] Init: Finished loading startup packages in 7.47 seconds
+[0009.11] Log: 69529 objects as part of root set at end of initial load.
+[0009.11] Log: 0 out of 0 bytes used by permanent object pool.
+[0009.11] Log: Initializing Engine...
+[0009.11] Warning: Warning, Failed to load 'ApexDestructibleDamageParameters UDK_APEXDamageMap.UDKDamageMap': Failed to find object 'ApexDestructibleDamageParameters UDK_APEXDamageMap.UDKDamageMap'
+[0009.31] Init: UEngine initialized
+[0009.34] Init: XAudio2Device initialized.
+[0009.40] Init: Client initialized
+[0015.08] Log: Steam Client API is unavailable
+[0015.58] Log: LoadMap: BlobMainMenu?Name=Player?Team=255
+[0015.82] Log: Game class is 'SimpleGame'
+[0015.87] Log: Primary PhysX scene will be in software.
+[0015.87] Log: Creating Primary PhysX Scene.
+[0015.87] Log: Bringing World BlobMainMenu.TheWorld up for play (0) at 2012.04.29-11.04.45
+[0015.88] Log: Bringing up level for play took: 0.041628
+[0015.88] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0015.88] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0015.88] Error: Can't start an online game that hasn't been created
+[0015.88] Log: ########### Finished loading level: 0.300052 seconds
+[0015.89] Init: Game engine initialized
+[0015.89] Log: Initializing Engine Completed
+[0017.43] Log: >>>>>>>>>>>>>> Initial startup: 17.43s <<<<<<<<<<<<<<<
+[0017.47] Warning: Warning, Failed to load 'SwfMovie ?INT?Scaleform.IME.MoviePath?': Failed to find object 'SwfMovie ?INT?Scaleform.IME.MoviePath?'
+[0017.47] Log: GFx attempted to load missing object [?INT?Scaleform.IME.MoviePath?]
+[0073.91] Log: LoadMap: ARE-first_Level?Name=Player?Team=255
+[0073.92] Log: --- LOADING MOVIE START ---
+[0074.01] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
+	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
+	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
+[0076.95] Log: Game class is 'BlobGameInfo'
+[0077.00] Warning: Warning, Material UN_Sky.SM.Materials.M_UN_Sky_SM_Sunset01 missing bUsedWithStaticLighting=True!
+[0077.09] Log: Primary PhysX scene will be in software.
+[0077.09] Log: Creating Primary PhysX Scene.
+[0077.15] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0077.15] Log: Bringing World ARE-First_Level.TheWorld up for play (0) at 2012.04.29-11.05.47
+[0077.48] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 246: Actor::setAngularDamping: Actor must be dynamic!
+[0077.48] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 225: Actor::setLinearDamping: Actor must be dynamic!
+[0077.48] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 246: Actor::setAngularDamping: Actor must be dynamic!
+[0077.48] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 225: Actor::setLinearDamping: Actor must be dynamic!
+[0077.48] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 246: Actor::setAngularDamping: Actor must be dynamic!
+[0077.48] DevPhysics: Error (1) in file ..\..\Physics\src\NpActor.cpp, line 225: Actor::setLinearDamping: Actor must be dynamic!
+[0077.48] Log: Bringing up level for play took: 0.535486
+[0077.49] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0077.49] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0077.49] Log: ########### Finished loading level: 3.582998 seconds
+[0077.50] ScriptLog: SetCoinsNeeded() : Set needed coins to 1
+[0077.53] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0.SkeletalMeshComponent_14 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0077.53] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: EnemyPawn_0
+[0077.55] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1.SkeletalMeshComponent_20 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0077.55] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: EnemyPawn_1
+[0077.56] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0077.56] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0077.56] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0077.56] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0077.57] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0077.57] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0077.58] ScriptWarning: BigBot WhatToDoNext with no pawn
+	UTBot ARE-First_Level.TheWorld:PersistentLevel.UTBot_0
+	Function UTGame.UTBot:WhatToDoNext:0068
+[0077.58] ScriptWarning: Accessed None 'Pawn'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function BlobGame.BlobBot:ScanForPlayers:003F
+[0077.58] ScriptWarning: Monsterbot WhatToDoNext with no pawn
+	UTBot ARE-First_Level.TheWorld:PersistentLevel.UTBot_1
+	Function UTGame.UTBot:WhatToDoNext:0068
+[0077.58] ScriptWarning: Accessed None 'Pawn'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function BlobGame.BlobBot:ScanForPlayers:003F
+[0077.58] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:02D1
+[0077.58] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0077.58] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:02D1
+[0077.58] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0078.20] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0.SkeletalMeshComponent_14 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0078.20] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1.SkeletalMeshComponent_20 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0078.23] Log: Kismet:  -100.000
+[0078.23] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0078.23] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0078.23] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0078.23] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0078.25] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARE-First_Level.TheWorld:PersistentLevel.BlobPawn_0.SkeletalMeshComponent_32 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0078.25] Log: UPhysicsAssetInstance::InitInstance : Could not find root physics body: BlobPawn_0
+[0078.25] ScriptWarning: Player start not found, failed to restart player
+	BlobGameInfo ARE-First_Level.TheWorld:PersistentLevel.BlobGameInfo_0
+	Function Engine.GameInfo:RestartPlayer:025E
+[0078.25] ScriptWarning: Player start not found, failed to restart player
+	BlobGameInfo ARE-First_Level.TheWorld:PersistentLevel.BlobGameInfo_0
+	Function Engine.GameInfo:RestartPlayer:025E
+[0078.25] ScriptWarning: Player start not found, failed to restart player
+	BlobGameInfo ARE-First_Level.TheWorld:PersistentLevel.BlobGameInfo_0
+	Function Engine.GameInfo:RestartPlayer:025E
+[0078.25] ScriptWarning: Player start not found, failed to restart player
+	BlobGameInfo ARE-First_Level.TheWorld:PersistentLevel.BlobGameInfo_0
+	Function Engine.GameInfo:RestartPlayer:025E
+[0078.25] Error: Can't start an online game that hasn't been created
+[0078.25] ScriptLog: START MATCH
+[0078.25] ScriptLog: BEGIN DEFENDING
+[0078.25] ScriptLog: PAUSE DEFENDING
+[0078.25] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	State BlobGame.BlobBot:Defending:01BB
+[0078.25] ScriptLog: BEGIN DEFENDING
+[0078.25] ScriptLog: PAUSE DEFENDING
+[0078.25] ScriptWarning: Accessed None 'MoveTarget'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	State BlobGame.BlobBot:Defending:01BB
+[0078.29] Log: !!!!!!!!!!!!!!!!!!!!!!!!!!   CPU skinned ARE-First_Level.TheWorld:PersistentLevel.BlobPawn_0.SkeletalMeshComponent_32 MyBlobPackage.Mesh.BIBBLOB 1 0 1 0
+[0078.49] Log: Kismet:  -100.000
+[0078.49] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0078.49] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0078.49] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0078.49] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0079.89] Log: --- LOADING MOVIE TIME: 5.96 sec ---
+[0079.89] Log: Kismet:  -100.000
+[0079.89] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0079.89] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0079.89] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0079.89] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0080.00] Log: Kismet:  -100.000
+[0080.01] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0080.01] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0080.12] Log: Kismet:  -100.000
+[0080.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0080.12] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0080.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0080.12] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0080.22] Log: Kismet:  -100.000
+[0080.22] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0080.22] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0080.35] Log: Kismet:  -100.000
+[0080.35] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0080.35] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0080.35] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0080.35] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0080.47] Log: Kismet:  -100.000
+[0080.47] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0080.47] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0080.57] Log: Kismet:  -100.000
+[0080.57] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0080.57] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0080.57] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0080.57] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0080.68] Log: Kismet:  -100.000
+[0080.69] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0080.69] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0080.80] Log: Kismet:  -100.000
+[0080.80] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0080.80] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0080.80] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0080.80] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0080.90] Log: Kismet:  -100.000
+[0080.90] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0080.90] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.02] Log: Kismet:  -100.000
+[0081.02] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0081.02] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0081.02] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.02] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0081.13] Log: Kismet:  -100.000
+[0081.13] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0081.13] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.25] Log: Kismet:  -100.000
+[0081.25] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0081.25] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0081.25] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.25] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0081.36] Log: Kismet:  -100.000
+[0081.36] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0081.36] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.46] Log: Kismet:  -100.000
+[0081.46] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0081.47] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0081.47] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.47] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0081.56] Log: Kismet:  -100.000
+[0081.56] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0081.56] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.67] Log: Kismet:  -100.000
+[0081.67] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0081.67] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0081.67] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.67] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0081.79] Log: Kismet:  -100.000
+[0081.79] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0081.79] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.90] Log: Kismet:  -100.000
+[0081.90] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0081.90] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0081.90] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0081.90] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0082.01] Log: Kismet:  -100.000
+[0082.01] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.01] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0082.12] Log: Kismet:  -100.000
+[0082.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.12] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0082.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0082.12] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0082.24] Log: Kismet:  -100.000
+[0082.24] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.24] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0082.29] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:02D1
+[0082.29] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0082.29] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:02D1
+[0082.29] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0082.32] ScriptLog: BEGIN DEFENDING
+[0082.32] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:PriorityObjective:0017
+[0082.32] ScriptLog: MOVE DEFENDING
+[0082.32] ScriptLog: BEGIN DEFENDING
+[0082.32] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:PriorityObjective:0017
+[0082.32] ScriptLog: MOVE DEFENDING
+[0082.34] Log: Kismet:  -100.000
+[0082.34] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.34] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0082.34] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0082.34] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0082.45] Log: Kismet:  -100.000
+[0082.45] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.45] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0082.57] Log: Kismet:  -100.000
+[0082.57] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.57] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0082.57] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0082.57] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0082.67] Log: Kismet:  -100.000
+[0082.67] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.67] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0082.78] Log: Kismet:  -100.000
+[0082.78] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.78] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0082.78] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0082.78] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0082.88] Log: Kismet:  -100.000
+[0082.88] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.88] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0082.88] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0082.88] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0082.98] Log: Kismet:  -100.000
+[0082.98] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0082.98] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.08] Log: Kismet:  -100.000
+[0083.08] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0083.08] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0083.08] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.08] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0083.18] Log: Kismet:  -100.000
+[0083.18] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0083.18] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.28] Log: Kismet:  -100.000
+[0083.28] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0083.29] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0083.29] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0083.37] Log: Kismet:  -100.000
+[0083.38] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0083.38] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.48] Log: Kismet:  -100.000
+[0083.48] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0083.48] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0083.48] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.48] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0083.60] Log: Kismet:  -100.000
+[0083.60] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0083.60] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0083.60] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.60] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0083.71] Log: Kismet:  -100.000
+[0083.71] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0083.71] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0083.71] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.71] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0083.82] Log: Kismet:  -100.000
+[0083.82] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0083.82] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0083.83] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.83] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0083.93] Log: Kismet:  -100.000
+[0083.93] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0083.93] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0083.93] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0083.93] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0084.04] Log: Kismet:  -100.000
+[0084.05] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0084.05] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0084.05] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0084.05] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0084.16] Log: Kismet:  -100.000
+[0084.16] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0084.16] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0084.16] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0084.16] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0084.27] Log: Kismet:  -100.000
+[0084.27] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0084.27] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0084.27] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0084.27] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0084.39] Log: Kismet:  -100.000
+[0084.39] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0084.39] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0084.39] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0084.39] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0084.52] Log: Kismet:  -100.000
+[0084.52] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0084.52] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0084.52] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0084.52] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0084.64] Log: Kismet:  -100.000
+[0084.64] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0084.64] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0084.64] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0084.64] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0084.73] Log: Kismet:  -100.000
+[0084.73] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0084.73] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0084.85] Log: Kismet:  -100.000
+[0084.85] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0084.85] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0084.85] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0084.85] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0084.95] Log: Kismet:  -100.000
+[0084.95] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0084.95] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.06] Log: Kismet:  -100.000
+[0085.06] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.06] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0085.06] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.06] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0085.15] Log: Kismet:  -100.000
+[0085.16] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.16] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.26] Log: Kismet:  -100.000
+[0085.27] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.27] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0085.27] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.27] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0085.37] Log: Kismet:  -100.000
+[0085.37] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.37] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0085.37] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.37] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0085.48] Log: Kismet:  -100.000
+[0085.48] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.48] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.58] Log: Kismet:  -100.000
+[0085.58] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.58] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0085.58] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.58] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0085.68] Log: Kismet:  -100.000
+[0085.68] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.68] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.78] Log: Kismet:  -100.000
+[0085.78] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.78] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0085.78] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.78] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0085.89] Log: Kismet:  -100.000
+[0085.90] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.90] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0085.90] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0085.90] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0085.99] Log: Kismet:  -100.000
+[0085.99] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0085.99] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.09] Log: Kismet:  -100.000
+[0086.09] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0086.09] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0086.09] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.09] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0086.19] Log: Kismet:  -100.000
+[0086.19] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0086.19] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.29] Log: Kismet:  -100.000
+[0086.29] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0086.29] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0086.29] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.29] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0086.39] Log: Kismet:  -100.000
+[0086.39] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0086.39] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.49] Log: Kismet:  -100.000
+[0086.49] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0086.49] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0086.49] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.49] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0086.58] Log: Kismet:  -100.000
+[0086.59] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0086.59] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.68] Log: Kismet:  -100.000
+[0086.68] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0086.68] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0086.68] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.68] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0086.77] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0086.77] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:02D1
+[0086.77] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0086.81] Log: Kismet:  -100.000
+[0086.81] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0086.81] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0086.81] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.81] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0086.81] ScriptLog: BEGIN DEFENDING
+[0086.90] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:PriorityObjective:0017
+[0086.90] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:PriorityObjective:0017
+[0086.90] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AllowDetourTo:0014
+[0086.90] ScriptLog: MOVE DEFENDING
+[0086.95] Log: Kismet:  -100.000
+[0086.95] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0086.95] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0086.95] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0087.03] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:02D1
+[0087.03] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0087.07] Log: Kismet:  -100.000
+[0087.07] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0087.07] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:HearNoise:012E
+[0087.07] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0087.07] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:HearNoise:012E
+[0087.07] ScriptLog: BEGIN DEFENDING
+[0087.07] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0087.07] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0087.07] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0087.07] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0087.13] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:FaceActor:00F6
+[0087.13] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0087.17] Log: Kismet:  -100.000
+[0087.17] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0087.17] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0087.30] Log: Kismet:  -100.000
+[0087.30] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0087.30] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0087.37] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0087.37] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0087.44] Log: Kismet:  -100.000
+[0087.44] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0087.44] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0087.55] Log: Kismet:  -100.000
+[0087.55] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0087.55] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0087.65] Log: Kismet:  -100.000
+[0087.65] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0087.65] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0087.65] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0087.65] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0087.74] Log: Kismet:  -100.000
+[0087.74] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0087.74] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0087.87] Log: Kismet:  -100.000
+[0087.87] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0087.87] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0087.95] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0087.96] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0088.02] Log: Kismet:  -100.000
+[0088.02] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0088.02] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0088.14] Log: Kismet:  -100.000
+[0088.14] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0088.14] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0088.14] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0088.14] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_27 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0088.27] Log: Kismet:  -100.000
+[0088.27] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0088.27] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0088.27] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0088.27] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0088.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0088.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0088.30] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0088.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0088.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0088.30] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0088.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0088.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0088.30] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0088.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0088.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0088.30] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0088.37] Log: Kismet:  -100.000
+[0088.37] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0088.37] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0088.37] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0088.44] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0088.44] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0088.44] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0088.44] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0088.44] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0088.44] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0088.47] Log: Kismet:  -100.000
+[0088.47] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0088.47] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0088.50] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0088.50] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0088.50] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0088.50] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0088.50] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0088.55] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:FaceActor:00F6
+[0088.55] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0088.55] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0088.55] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0088.55] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0088.55] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0088.55] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0088.59] Log: Kismet:  -100.000
+[0088.59] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0088.60] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0088.63] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0088.63] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0088.63] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0088.63] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0088.63] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0088.63] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0088.70] Log: Kismet:  -100.000
+[0088.70] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0088.70] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0088.79] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:TacticalMove.PickDestination:025F
+[0088.79] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:TacticalMove.PickDestination:0368
+[0088.80] Log: Kismet:  -100.000
+[0088.80] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0088.80] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0088.80] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0088.80] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0088.80] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0088.86] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0088.90] Log: Kismet:  -100.000
+[0088.90] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0088.90] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0088.97] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0088.97] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0088.97] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0088.97] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0088.97] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0088.97] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0089.00] Log: Kismet:  -100.000
+[0089.00] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0089.00] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0089.08] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0089.08] Log: EnemyPawn_0 PLAYSOUND with no sound cue called from PlayTakeHitSound
+[0089.10] Log: Script call stack:
+	Function Engine.Weapon:WeaponFiring.BeginState
+	Function UTGame.UTWeapon:FireAmmunition
+	Function Engine.Weapon:FireAmmunition
+	Function UTGame.UTWeapon:InstantFire
+	Function UTGame.UTWeapon:ProcessInstantHit
+	Function Engine.Weapon:ProcessInstantHit
+	Function UTGameContent.UTProj_Shockball:TakeDamage
+	Function UTGameContent.UTProj_Shockball:ComboExplosion
+	Function Engine.Projectile:HurtRadius
+	Function Engine.Actor:HurtRadius
+	Function Engine.Actor:TakeRadiusDamage
+	Function UTGame.UTPawn:TakeDamage
+	Function Engine.Pawn:TakeDamage
+	Function UTGame.UTPawn:PlayHit
+	Function UTGame.UTPawnSoundGroup:PlayTakeHitSound
+
+[0089.10] Log: EnemyPawn_1 PLAYSOUND with no sound cue called from PlayTakeHitSound
+[0089.10] Log: Script call stack:
+	Function Engine.Weapon:WeaponFiring.BeginState
+	Function UTGame.UTWeapon:FireAmmunition
+	Function Engine.Weapon:FireAmmunition
+	Function UTGame.UTWeapon:InstantFire
+	Function UTGame.UTWeapon:ProcessInstantHit
+	Function Engine.Weapon:ProcessInstantHit
+	Function UTGameContent.UTProj_Shockball:TakeDamage
+	Function UTGameContent.UTProj_Shockball:ComboExplosion
+	Function Engine.Projectile:HurtRadius
+	Function Engine.Actor:HurtRadius
+	Function Engine.Actor:TakeRadiusDamage
+	Function UTGame.UTPawn:TakeDamage
+	Function Engine.Pawn:TakeDamage
+	Function UTGame.UTPawn:PlayHit
+	Function UTGame.UTPawnSoundGroup:PlayTakeHitSound
+
+[0089.10] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0089.10] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0089.10] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0089.10] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0089.11] Log: Kismet:  -100.000
+[0089.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0089.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0089.22] Log: Kismet:  -71.000
+[0089.22] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0089.22] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0089.22] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:FaceActor:00F6
+[0089.33] Log: Kismet:  -71.000
+[0089.33] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0089.34] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0089.37] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0089.37] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0089.45] Log: Kismet:  -71.000
+[0089.45] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0089.45] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0089.55] Log: Kismet:  -71.000
+[0089.55] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0089.55] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0089.64] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:TacticalMove.PickDestination:025F
+[0089.64] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:TacticalMove.PickDestination:0368
+[0089.64] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0089.64] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0089.64] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:TacticalMove.PickDestination:025F
+[0089.64] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:TacticalMove.PickDestination:0368
+[0089.64] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0089.64] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0089.68] Log: Kismet:  -71.000
+[0089.68] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0089.68] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0089.72] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:FaceActor:00F6
+[0089.75] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0089.78] Log: Kismet:  -71.000
+[0089.78] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0089.78] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0089.81] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0089.91] Log: Kismet:  -71.000
+[0089.91] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0089.91] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0089.94] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0089.94] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0090.02] Log: Kismet:  -71.000
+[0090.02] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0090.02] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0090.12] Log: Kismet:  -71.000
+[0090.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0090.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0090.21] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0090.21] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_27 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0090.21] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0090.24] Log: Kismet:  -71.000
+[0090.24] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0090.24] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0090.34] Log: Kismet:  -71.000
+[0090.34] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0090.34] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0090.49] Log: Kismet:  -71.000
+[0090.49] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0090.49] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0090.52] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0090.52] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0090.60] Log: Kismet:  -71.000
+[0090.60] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0090.60] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0090.72] Log: Kismet:  -71.000
+[0090.72] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0090.72] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0090.72] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0090.81] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0090.81] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0090.85] Log: Kismet:  -71.000
+[0090.85] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0090.85] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0090.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0090.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0090.92] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0090.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0090.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0090.92] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0090.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0090.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0090.92] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0090.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0090.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0090.92] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0090.96] Log: Kismet:  -71.000
+[0090.96] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0090.96] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0091.02] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:TacticalMove.PickDestination:025F
+[0091.02] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:TacticalMove.PickDestination:0368
+[0091.03] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:TacticalMove.PickDestination:025F
+[0091.03] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:TacticalMove.PickDestination:0368
+[0091.06] Log: Kismet:  -71.000
+[0091.06] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0091.06] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0091.06] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0091.06] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0091.06] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0091.06] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0091.10] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:FaceActor:00F6
+[0091.10] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0091.13] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0091.13] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0091.13] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0091.13] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0091.13] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0091.13] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0091.19] Log: Kismet:  -71.000
+[0091.20] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0091.20] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0091.20] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0091.25] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:TacticalMove.PickDestination:025F
+[0091.25] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:TacticalMove.PickDestination:0368
+[0091.31] Log: Kismet:  -71.000
+[0091.31] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0091.31] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0091.37] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0091.37] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0091.37] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0091.40] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:TacticalMove.PickDestination:025F
+[0091.40] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:TacticalMove.PickDestination:0368
+[0091.43] Log: Kismet:  -71.000
+[0091.43] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0091.43] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0091.46] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0091.55] Log: Kismet:  -71.000
+[0091.55] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0091.55] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0091.64] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0091.64] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0091.64] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0091.66] Log: Kismet:  -71.000
+[0091.66] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0091.66] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0091.77] Log: Kismet:  -40.000
+[0091.77] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0091.77] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0091.88] Log: Kismet:  -40.000
+[0091.89] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0091.89] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0091.94] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0091.94] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0091.97] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0091.97] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0091.97] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0091.97] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0091.97] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0091.97] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0092.00] Log: Kismet:  -40.000
+[0092.00] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0092.00] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0092.11] Log: Kismet:  -40.000
+[0092.11] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0092.11] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0092.19] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0092.22] Log: Kismet:  -40.000
+[0092.22] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0092.22] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0092.22] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0092.22] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0092.30] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0092.33] Log: Kismet:  -40.000
+[0092.33] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0092.33] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0092.33] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0092.37] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:FaceActor:00F6
+[0092.45] Log: Kismet:  -40.000
+[0092.45] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0092.45] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0092.52] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0092.57] Log: Kismet:  -40.000
+[0092.57] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0092.57] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0092.69] Log: Kismet:  -40.000
+[0092.69] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0092.69] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0092.80] Log: Kismet:  -40.000
+[0092.80] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0092.80] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0092.80] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0092.92] Log: Kismet:  -40.000
+[0092.92] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0092.92] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0092.95] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_27 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0093.04] Log: Kismet:  -40.000
+[0093.04] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0093.04] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0093.04] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0093.08] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0093.14] Log: Kismet:  -40.000
+[0093.14] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0093.14] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0093.24] Log: Kismet:  -40.000
+[0093.25] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0093.25] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0093.35] Log: Kismet:  -40.000
+[0093.35] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0093.35] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0093.37] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0093.45] Log: Kismet:  -40.000
+[0093.45] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0093.45] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0093.54] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0093.54] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0093.54] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0093.54] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0093.54] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0093.54] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0093.54] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0093.54] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0093.54] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0093.54] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0093.54] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0093.54] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0093.56] Log: Kismet:  -40.000
+[0093.56] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0093.56] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0093.59] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0093.65] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0093.65] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0093.68] Log: Kismet:  -40.000
+[0093.68] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0093.68] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0093.77] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0093.77] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0093.77] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0093.80] Log: Kismet:  -40.000
+[0093.80] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0093.80] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0093.92] Log: Kismet:  -40.000
+[0093.92] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0093.92] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0093.92] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0094.04] Log: Kismet:  -40.000
+[0094.04] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0094.04] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0094.16] Log: Kismet:  -40.000
+[0094.16] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0094.16] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0094.22] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_27 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0094.22] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0094.28] Log: Kismet:  -40.000
+[0094.28] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0094.28] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0094.40] Log: Kismet:  -40.000
+[0094.40] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0094.40] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0094.52] Log: Kismet:  -40.000
+[0094.52] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0094.52] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0094.52] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0094.52] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0094.52] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0094.52] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0094.63] Log: Kismet:  -40.000
+[0094.63] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0094.63] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0094.69] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0094.69] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0094.69] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0094.69] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0094.69] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0094.69] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0094.75] Log: Kismet:  -40.000
+[0094.75] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0094.75] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0094.78] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0094.80] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0094.80] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0094.80] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0094.80] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0094.80] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0094.80] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0094.86] Log: Kismet:  -40.000
+[0094.86] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0094.86] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0094.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0094.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0094.92] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0094.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0094.92] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0094.92] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0094.95] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0094.95] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0094.95] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0094.95] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0094.95] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0094.95] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0094.97] Log: Kismet:  -40.000
+[0094.97] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0094.97] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0095.03] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0095.03] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0095.03] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0095.03] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0095.03] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0095.03] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0095.08] Log: Kismet:  -40.000
+[0095.08] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0095.08] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0095.08] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0095.08] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0095.14] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0095.14] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0095.14] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0095.14] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0095.14] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0095.14] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0095.17] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0095.19] Log: Kismet:  -40.000
+[0095.19] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0095.20] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0095.25] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0095.25] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0095.25] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0095.25] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0095.25] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0095.25] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0095.30] Log: Kismet:  -40.000
+[0095.30] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0095.31] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0095.31] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0095.31] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0095.36] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0095.41] Log: Kismet:  -40.000
+[0095.41] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0095.41] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0095.52] Log: Kismet:  -40.000
+[0095.52] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0095.52] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0095.62] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_27 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0095.64] Log: Kismet:  -40.000
+[0095.64] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0095.64] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0095.65] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0095.76] Log: Kismet:  -40.000
+[0095.76] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0095.76] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0095.88] Log: Kismet:  -40.000
+[0095.88] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0095.88] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0095.94] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0095.99] Log: Kismet:  -40.000
+[0095.99] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0095.99] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0096.02] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0096.02] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0096.05] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0096.05] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0096.05] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0096.05] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0096.05] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0096.05] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0096.11] Log: Kismet:  -40.000
+[0096.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0096.12] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0096.23] Log: Kismet:  -40.000
+[0096.23] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0096.23] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0096.23] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0096.23] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0096.27] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0096.31] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0096.31] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0096.31] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0096.31] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0096.31] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0096.31] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0096.37] Log: Kismet:  -40.000
+[0096.37] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0096.37] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0096.38] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0096.38] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0096.38] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_27 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0096.48] Log: Kismet:  -40.000
+[0096.48] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0096.48] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0096.51] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0096.51] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0096.54] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0096.56] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0096.56] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0096.56] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0096.56] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0096.57] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0096.57] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0096.59] Log: Kismet:  -40.000
+[0096.59] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0096.60] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0096.62] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0096.70] Log: Kismet:  -40.000
+[0096.70] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0096.70] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0096.76] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0096.76] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0096.78] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0096.78] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0096.81] Log: Kismet:  -40.000
+[0096.81] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0096.81] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0096.86] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0096.89] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0096.89] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0096.89] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0096.89] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0096.89] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0096.89] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0096.92] Log: Kismet:  -40.000
+[0096.92] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0096.92] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0096.95] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0097.03] Log: Kismet:  -40.000
+[0097.03] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0097.03] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0097.08] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0097.08] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0097.08] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0097.08] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0097.08] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0097.08] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0097.08] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0097.08] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0097.13] Log: Kismet:  -40.000
+[0097.13] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0097.14] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0097.14] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0097.14] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_27 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0097.24] Log: Kismet:  -40.000
+[0097.24] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0097.24] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0097.35] Log: Kismet:  -40.000
+[0097.35] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0097.35] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0097.35] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0097.35] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0097.40] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0097.43] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0097.43] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0097.43] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0097.43] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0097.43] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0097.43] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_0
+[0097.43] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0097.43] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0097.43] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0097.43] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0097.43] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0097.43] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0097.48] Log: Kismet:  -40.000
+[0097.48] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0097.48] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0097.53] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0097.53] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0097.53] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0097.58] Log: Kismet:  -40.000
+[0097.58] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0097.58] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0097.65] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0097.65] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0097.68] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:FaceActor:00F6
+[0097.70] Log: Kismet:  -40.000
+[0097.70] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0097.70] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0097.82] Log: Kismet:  -40.000
+[0097.82] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0097.82] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0097.93] Log: Kismet:  -40.000
+[0097.93] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0097.93] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0097.93] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0098.04] Log: Kismet:  -40.000
+[0098.04] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0098.04] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0098.15] Log: Kismet:  -40.000
+[0098.15] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0098.15] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0098.22] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0098.22] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0098.22] Warning: GetBoneMatrix : BoneIndex(0) out of range of SpaceBases for SkeletalMeshComponent_30 (SkeletalMesh WP_ShockRifle.Mesh.SK_WP_ShockRifle_3P) owned by NULL
+[0098.27] Log: Kismet:  -40.000
+[0098.27] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0098.27] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0098.36] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ExecuteWhatToDoNext:0303
+[0098.36] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:AssignSquadResponsibility:006A
+[0098.36] ScriptLog: HERE 1 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0098.36] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:0208
+[0098.36] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:ChooseAttackMode:03A7
+[0098.36] ScriptLog: HERE 3 Squad None Enemy BlobPawn_0 pawn EnemyPawn_1
+[0098.38] Log: Kismet:  -40.000
+[0098.38] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0098.38] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0098.49] Log: Kismet:  -40.000
+[0098.49] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0098.49] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0098.49] ScriptLog: TomatoBot::ScanForPlayers() : I see the player!
+[0098.49] ScriptLog: TomatoBot::ScanForPlayers() : Going to CharginNoStrafe state
+[0098.55] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_0
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0098.61] Log: Kismet:  -40.000
+[0098.61] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0098.61] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0098.73] Log: Kismet:  -40.000
+[0098.73] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_1
+	Function Engine.Pawn:TakeDamage:0076
+[0098.73] ScriptWarning: No damagetype for damage with no instigator
+	EnemyPawn ARE-First_Level.TheWorld:PersistentLevel.EnemyPawn_0
+	Function Engine.Pawn:TakeDamage:0076
+[0098.75] ScriptWarning: Accessed None 'Squad'
+	BlobBot ARE-First_Level.TheWorld:PersistentLevel.BlobBot_1
+	Function UTGame.UTBot:RangedAttack.IsShootingObjective:0025
+[0098.91] Critical: appError called: Assertion failed: i>=0 && (i<ArrayNum||(i==0 && ArrayNum==0)) [File:d:\depot\unrealengine3\development\src\core\inc\Array.h] [Line: 575]
+
+Stack: Address = 0xbab4c9   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+
+[0098.91] Critical: Windows GetLastError: The operation completed successfully. (0)
+[0158.52] Log: === Critical error: ===
+Assertion failed: i>=0 && (i<ArrayNum||(i==0 && ArrayNum==0)) [File:d:\depot\unrealengine3\development\src\core\inc\Array.h] [Line: 575]
+
+Stack: Address = 0xbab4c9   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+
+
+Address = 0x750eb9bc (filename not found) [in C:\windows\syswow64\KERNELBASE.dll]
+Address = 0xc134b1   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x650073   (filename not found) 
+Address = 0x740072   (filename not found) 
+Address = 0x6f0069   (filename not found) 
+Address = 0x20006e   (filename not found) 
+Address = 0x610066   (filename not found) 
+Address = 0x6c0069   (filename not found) 
+Address = 0x640065   (filename not found) 
+Address = 0x20003a   (filename not found) 
+Address = 0x3e0069   (filename not found) 
+Address = 0x30003d   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0x260020   (filename not found) 
+Address = 0x200026   (filename not found) 
+Address = 0x690028   (filename not found) 
+Address = 0x41003c   (filename not found) 
+Address = 0x720072   (filename not found) 
+Address = 0x790061   (filename not found) 
+Address = 0x75004e   (filename not found) 
+Address = 0x7c006d   (filename not found) 
+Address = 0x28007c   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0x3d0069   (filename not found) 
+Address = 0x30003d   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0x260020   (filename not found) 
+Address = 0x200026   (filename not found) 
+Address = 0x720041   (filename not found) 
+Address = 0x610072   (filename not found) 
+Address = 0x4e0079   (filename not found) 
+Address = 0x6d0075   (filename not found) 
+Address = 0x3d003d   (filename not found) 
+Address = 0x290030   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0x200029   (filename not found) 
+Address = 0x46005b   (filename not found) 
+Address = 0x6c0069   (filename not found) 
+Address = 0x3a0065   (filename not found) 
+Address = 0x3a0064   (filename not found) 
+Address = 0x64005c   (filename not found) 
+Address = 0x700065   (filename not found) 
+Address = 0x74006f   (filename not found) 
+Address = 0x75005c   (filename not found) 
+Address = 0x72006e   (filename not found) 
+Address = 0x610065   (filename not found) 
+Address = 0x65006c   (filename not found) 
+Address = 0x67006e   (filename not found) 
+Address = 0x6e0069   (filename not found) 
+Address = 0x330065   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\PhysXExtensions.dll]
+Address = 0x64005c   (filename not found) 
+Address = 0x760065   (filename not found) 
+Address = 0x6c0065   (filename not found) 
+Address = 0x70006f   (filename not found) 
+Address = 0x65006d   (filename not found) 
+Address = 0x74006e   (filename not found) 
+Address = 0x73005c   (filename not found) 
+Address = 0x630072   (filename not found) 
+Address = 0x63005c   (filename not found) 
+Address = 0x72006f   (filename not found) 
+Address = 0x5c0065   (filename not found) 
+Address = 0x6e0069   (filename not found) 
+Address = 0x5c0063   (filename not found) 
+Address = 0x720041   (filename not found) 
+Address = 0x610072   (filename not found) 
+Address = 0x2e0079   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\wxmsw28u_xrc_vc_custom.dll]
+Address = 0xa70fb0   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0xc14d4b   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0xbe476e   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0xbe480f   (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x3097164  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0xc25d0000 (filename not found) 
+Address = 0xcccc000c (filename not found) 
+Address = 0xcccccccc (filename not found) 
+Address = 0x68ff6acc (filename not found) 
+Address = 0x2779bb8  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+Address = 0x2779bb8  (filename not found) [in C:\UDK\BlobAttackTechDemo1\Binaries\Win32\UDK.exe]
+
